@@ -164,7 +164,7 @@ const ScanPage = () => {
                     <button id='startbutton'>Scan</button>
                 </div>
                 <canvas id='canvas' className='hidden'></canvas>
-                <div>
+                <div className='hidden'>
                     <img id='photo' alt='The screen capture will appear in this box'></img>
                 </div>
             </div>

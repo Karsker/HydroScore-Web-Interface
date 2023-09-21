@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hydroscore",
+  "private_key_id": "0f1f429955449de1a93a2e3e84cef99ef756bba0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDeCquPnuRiSXsk\nTUFmWoZV14BhTBJy1MxAm5eFNBgmojws1h9nE4wymBCMzEIyvuKo2sFiqQ0yqqqG\nvsWtbC/pSsbTfbZd9h7sOS0ETk609iS/rmtpOdsE9SLqsXUoymE1ZnfF4NSa3Ows\nT+WBzjVKKagfngDVTInAtb3jxXBBiapCx4QkRwuVSHB4jKoxCqk8QprCg81dpcrt\n99gUqfzKigO7hOCm0DPyhlndbZhcFJfKwHgqrEhPbvXgtycWaUy58U4QqNaqAVRi\nFMLKMSyHxI6G1NPjLLbYNLk+wjGfBINcdbnsUMUJCsEXqO4GRDB/KtToOi8j6ymL\nuyEY5ae9AgMBAAECggEANHZ/ckQH8MwtXxas4u71Kh+suvCDNGQgrYxFyQiVwz0W\nbD6cdVmaSNMCqA3T/1L4UY68XiAU2PmXqJY3NUJocJ4FK+/aUMmoJUbeItQQxzOY\nW7ztrpNnszxrZ1oOFVj6Dmi7WIMGoN+dotuu3dR35WHB0lSeHEfFDYYzi3d5TlZ0\nuw4U26id5BXxTD3HuYB3gAgxngBnfca3K0mnPHAG+/MMl+fKa215f/5T8pdZiTb0\nNglvfVYGpdA/CElXoYtndJD5oNPDl7jJz59y0Q5xCzCJNxKVCRiNmUQ3sbU4MbTS\n2qAFRWuTJxWLhF9MymVGk68tevNe5hsM31mk4zxPyQKBgQDw0t5Wi4orq/7t1xtM\n8bPQPGZm6v5OqxueBHAFEhH+pJ6W/MeKyrj1jdfh2hDPFPRaARsGaJDYuiZAYSlJ\nD9XqVqAZFImNo2zYMiHdYAu2QI1HCx4RtkjZ7D/6CDo5s4jxTiVkjpn97HeT2Tt6\nFZPHTYKi87YXSxQtM8eve19mmQKBgQDsCMwaa1HQbfIiZYtvt7u2NhADN4VFl2+D\ng1N7eDekrNkktLbws+GyTWxcYW1Gc6kF+oWZMRfPuL9tMGyG5c/jheIrBfG5Kkig\nK+keRPs7hRdbVB9GRkYsfKFDW5CrlCAPABXq/2QU34zyTIluaCjLz3Ra51zgbTxD\ndqORV83UxQKBgARefwQo8e/K5gwgm/EwbWe4wM7bMpPwzMZ4JCQjaMoq6Gmq2l/t\nP5/M2/7P+wAWzDwZywi5uu8DqY//c0VNET94JN1vnvM/5MijWDPw+yVqVGXWkMwX\nd4jknWCG56+GT1S5azpA0BBoSt8W0NptK8ow4M7eBw6zIQGU7+mCHn/5AoGAX/wX\n3CqGY8dCL0CyGmVSPX/wtQ4v8SPrIkUWfuBdaGcuCqI+vtW304VuqoaoJH1GX/sH\nt0tijoNnvSRzDcyI5NJ+LdbF/PG4BQK2UyvkKsktvWMRMMfFI7Qu9DBZPZ0ICHGV\neDIRZfee3q3HOZG7/V3IyGrLtyxU1G57h9B4EK0CgYEAlxNNbXFvvtRWtDRL6eU4\n8lhtMRSnhrauvWpiWtAOIjNF/ArZFPuM30O+22dfIcC3aYeqbwQ2cUV/d2LKbznI\ni4vQ2TMLMCBLAvoDq4aCUbXdUdKPxvy2r6tb/x5nVUm1jUZCUZ0JkGfex1YDkYJJ\n7THYDiaK+qz6ov4U2terWCM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sa-hydroscore@hydroscore.iam.gserviceaccount.com",
+  "client_id": "118123168452504049194",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sa-hydroscore%40hydroscore.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
