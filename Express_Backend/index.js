@@ -21,9 +21,10 @@ const PORT = 3000;
 function imageDetect() {
     let options = {
         mode: 'text',
-        pythonPath: 'yolo-env\\Scripts\\python.exe'
+        pythonPath: 'yolo-env\\Scripts\\python.exe',
+        args: ['public/static/image.png'],
     }
-    PythonShell.run('CloudVision.py', options).then(results=>{
+    PythonShell.run('object-detect.py', options).then(results=>{
         // results is an array consisting of messages collected during execution
         console.log('results: %j', results);
       });

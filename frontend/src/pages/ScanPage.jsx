@@ -4,13 +4,13 @@ import { createCanvas, loadImage } from 'canvas';
 import fs from 'fs';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
+import Navbar from '../components/Navbar';
 
 
 
 const ScanPage = () => {
     const navigate = useNavigate();
-    const width = 320; // We will scale the photo width to this
+    const width = 480; // We will scale the photo width to this
     let height = 0; // This will be computed based on the input stream
 
     // |streaming| indicates whether or not we're currently streaming
@@ -157,15 +157,19 @@ const ScanPage = () => {
     }, []);
     return (
         <React.Fragment>
-            <div className='font-comic-neue flex flex-col items-center h-screen'>
-                <h1 className='text-blue-400 text-4xl my-3'>Scan object to get water footprint</h1>
-                <div>
-                    <video id='video'>Video stream not available</video>
-                    <button id='startbutton'>Scan</button>
+            < Navbar />
+            <div className='font-poppins flex flex-col items-center gap-3 text-black'>
+                <h1 className='text-black text-4xl my-3'>Scan object to get water footprint</h1>
+                <div className='rounded-lg flex flex-col gap-3 items-center'>
+                    <video id='video' className='shadow-xl border-2 border-black '>Video stream not available</video>
+                    <button id='startbutton' className='bg-blue-200 w-[80px] rounded-sm'>Scan</button>
                 </div>
                 <canvas id='canvas' className='hidden'></canvas>
                 <div className='hidden'>
                     <img id='photo' alt='The screen capture will appear in this box'></img>
+                </div>
+                <div id="object-details">
+
                 </div>
             </div>
             {window.addEventListener("load", startup, false)}
